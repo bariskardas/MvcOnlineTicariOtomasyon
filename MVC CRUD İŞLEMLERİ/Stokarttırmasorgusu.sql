@@ -1,0 +1,1 @@
+UPDATE TABLO1 SET STOK=(SELECT COUNT(Stok) from Uruns)
