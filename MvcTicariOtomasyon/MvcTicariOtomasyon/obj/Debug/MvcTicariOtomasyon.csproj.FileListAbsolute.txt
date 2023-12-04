@@ -85,3 +85,7 @@ C:\Users\BARIŞ\source\repos\MvcTicariOtomasyon\MvcTicariOtomasyon\bin\EntityFra
 C:\Users\BARIŞ\source\repos\MvcTicariOtomasyon\MvcTicariOtomasyon\bin\EntityFramework.SqlServer.dll
 C:\Users\BARIŞ\source\repos\MvcTicariOtomasyon\MvcTicariOtomasyon\bin\EntityFramework.xml
 C:\Users\BARIŞ\source\repos\MvcTicariOtomasyon\MvcTicariOtomasyon\bin\EntityFramework.SqlServer.xml
+C:\Users\BARIŞ\source\repos\MvcTicariOtomasyon\MvcTicariOtomasyon\bin\PagedList.dll
+C:\Users\BARIŞ\source\repos\MvcTicariOtomasyon\MvcTicariOtomasyon\bin\PagedList.Mvc.dll
+C:\Users\BARIŞ\source\repos\MvcTicariOtomasyon\MvcTicariOtomasyon\bin\PagedList.xml
+C:\Users\BARIŞ\source\repos\MvcTicariOtomasyon\MvcTicariOtomasyon\bin\PagedList.Mvc.xml

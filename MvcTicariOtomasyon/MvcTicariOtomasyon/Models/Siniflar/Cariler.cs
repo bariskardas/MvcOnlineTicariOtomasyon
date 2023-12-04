@@ -32,6 +32,10 @@ namespace MvcTicariOtomasyon.Models.Siniflar
         [Required(ErrorMessage = "Bu alanı boş geçemezsiniz!")]
         public string CariMail { get; set; }
 
+        [Column(TypeName = "Varchar")]
+        [StringLength(30)]
+        public string CariSifre { get; set; }
+
         public bool Durum { get; set; }
         public ICollection<SatisHareket> SatisHarekets { get; set; }
     }

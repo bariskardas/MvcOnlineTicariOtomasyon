@@ -5,7 +5,7 @@
     Layout = "~/Views/Shared/AdminLayout.cshtml";
 }
 <br />
-<h2>Müşteri Satış</h2>
+<h2>Sipariş Geçmişi</h2>
 <br />
 <ol class="breadcrumb mb-4">
     <li class="breadcrumb-item active">Cari Adı: @ViewBag.k </li>
@@ -16,23 +16,23 @@
         <th>Satış ID</th>
         <th>Ürün</th>
         <th>Personel</th>
-        <th>Fiyat</th>
         <th>Adet</th>
-        <th>Toplam</th>
+        <th>Fiyat</th>
+        <th>Toplam tutar</th>
         <th>Tarih</th>
         <th>Yazdır</th>
     </tr>
     @foreach (var x in Model)
     {
-        <tr>
-            <td>@x.Satisid</td>
-            <td>@x.Urun.UrunAd</td>
-            <td>@x.Personel.PersonelAd @x.Personel.PersonelSoyad</td>
-            <td>@x.Fiyat</td>
-            <td>@x.Adet</td>
-            <td>@x.ToplamTutar</td>
-            <td>@x.Tarih</td>
-            <td><a href="#" class="btn btn-warning">Yazdır</a></td>
-        </tr>
+    <tr>
+        <td>@x.Satisid</td>
+        <td>@x.Urun.UrunAd</td>
+        <td>@x.Personel.PersonelAd @x.Personel.PersonelSoyad</td>
+        <td>@x.Adet</td>
+        <td>@x.Fiyat ₺</td>
+        <td>@x.ToplamTutar ₺</td>
+        <td>@Convert.ToDateTime(x.Tarih).ToString("dd/MM/yyyy")</td>
+        <td><a href="#" class="btn btn-warning">Yazdır</a></td>
+    </tr>
     }
 </table>
