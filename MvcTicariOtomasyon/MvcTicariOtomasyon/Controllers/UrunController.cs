@@ -59,7 +59,6 @@ namespace MvcTicariOtomasyon.Controllers
                                            }).ToList();
 
             ViewBag.dgr1 = deger1;
-
             var urundeger = c.Uruns.Find(id);
             return View("UrunGetir", urundeger);
         }
@@ -83,6 +82,33 @@ namespace MvcTicariOtomasyon.Controllers
         {
             var degerler = c.Uruns.ToList();
             return View(degerler);
+        }
+
+        [HttpGet]
+        public ActionResult SatisYap(int id)
+        {
+            List<SelectListItem> deger3 = (from x in c.Personels.ToList()
+                                           select new SelectListItem
+                                           {
+                                               Text = x.PersonelAd + " " + x.PersonelSoyad,
+                                               Value = x.Personelid.ToString()
+                                           }).ToList();
+
+            ViewBag.dgr3 = deger3;
+            var deger1 = c.Uruns.Find(id);
+            ViewBag.dgr1 = deger1.Urunid;
+            ViewBag.dgr2 = deger1.SatisFiyat;
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult SatisYap(SatisHareket p)
+        {
+            p.Tarih = DateTime.Parse(DateTime.Now.ToShortDateString());
+            c.SatisHarekets.Add(p);
+            c.SaveChanges();
+            return RedirectToAction("Index", "Satis");
+           
         }
     }
 }

@@ -89,3 +89,5 @@ C:\Users\BARIŞ\source\repos\MvcTicariOtomasyon\MvcTicariOtomasyon\bin\PagedList
 C:\Users\BARIŞ\source\repos\MvcTicariOtomasyon\MvcTicariOtomasyon\bin\PagedList.Mvc.dll
 C:\Users\BARIŞ\source\repos\MvcTicariOtomasyon\MvcTicariOtomasyon\bin\PagedList.xml
 C:\Users\BARIŞ\source\repos\MvcTicariOtomasyon\MvcTicariOtomasyon\bin\PagedList.Mvc.xml
+C:\Users\BARIŞ\source\repos\MvcTicariOtomasyon\MvcTicariOtomasyon\obj\Debug\MvcTicariOtomasyon.Migrations.denemekargo1.resources
+C:\Users\BARIŞ\source\repos\MvcTicariOtomasyon\MvcTicariOtomasyon\obj\Debug\MvcTicariOtomasyon.csproj.GenerateResource.cache

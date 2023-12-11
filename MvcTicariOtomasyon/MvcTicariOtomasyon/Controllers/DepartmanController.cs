@@ -21,6 +21,7 @@ namespace MvcTicariOtomasyon.Controllers
         {
             return View();
         }
+
         [HttpPost]
         public ActionResult DepartmanEkle(Departman d)
         {

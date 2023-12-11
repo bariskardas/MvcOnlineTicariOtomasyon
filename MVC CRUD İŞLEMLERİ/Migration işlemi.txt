@@ -1,0 +1,8 @@
+models dosya içinde bir sınıf oluşturulur ve sonra oluşturduğunuz context sınıfına eklemeler yapılır.
+SOnrasında migration işlemi şu şekilde:
+add-migration deneme
+sonrasında
+update-database
+sonrasında kodlarda değişiklik yapıp(code first)
+veritabanında güncelleme yapmak isterseniz:
+update-database -Force

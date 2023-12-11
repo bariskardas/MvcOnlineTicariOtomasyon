@@ -1,0 +1,1 @@
+Select CariAd + ' ' + CariSoyad From Carilers where CariMail in (Select Gonderici From mesajlars)
