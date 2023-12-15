@@ -6,6 +6,7 @@ using System.Web.Mvc;
 using MvcTicariOtomasyon.Models.Siniflar;
 namespace MvcTicariOtomasyon.Controllers
 {
+    [Authorize]
     public class DepartmanController : Controller
     {
         // GET: Departman
