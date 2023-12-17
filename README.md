@@ -32,4 +32,3 @@
 ![9](https://github.com/bariskardas/MvcOnlineTicariOtomasyon/assets/47866774/00a5d1c2-3901-45d7-9ea7-6d80bae508de)
 ![10](https://github.com/bariskardas/MvcOnlineTicariOtomasyon/assets/47866774/0d2616b9-a17a-4c90-9219-97a6f0c6a9ac)
 ![11](https://github.com/bariskardas/MvcOnlineTicariOtomasyon/assets/47866774/72bb64f4-7084-4c38-985b-cb5792071ff0)
-![12](https://github.com/bariskardas/MvcOnlineTicariOtomasyon/assets/47866774/eb2db269-a0af-429c-ab41-72d1ebb7d8f8)
