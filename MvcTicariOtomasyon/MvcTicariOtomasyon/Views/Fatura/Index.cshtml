@@ -15,8 +15,7 @@
         <th>Teslim Alan</th>
         <th>Toplam</th>
         <th>Güncelle</th>
-        <th>Detaylar</th>s
-        <th>Yeni Kalem</th>
+        <th>Detaylar</th>
     </tr>
     @foreach (var k in Model)
     {
@@ -30,7 +29,6 @@
             <td>@k.Toplam ₺</td>
             <td><a href="/Fatura/FaturaGetir/@k.Faturaid" class="btn btn-warning">Güncelle</a></td>
             <td><a href="/Fatura/FaturaDetay/@k.Faturaid" class="btn btn-primary">Detaylar</a></td>
-            <td><a href="/Fatura/FaturaDetay/@k.Faturaid" class="btn btn-secondary">Yeni Kalem</a></td>
         </tr>
     }
 

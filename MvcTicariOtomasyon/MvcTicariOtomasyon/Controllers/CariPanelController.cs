@@ -8,11 +8,12 @@ using System.Web.Security;
 
 namespace MvcTicariOtomasyon.Controllers
 {
+    [AllowAnonymous]
     public class CariPanelController : Controller
     {
         // GET: CariPanel
         Context c = new Context();
-        [Authorize]
+       
         public ActionResult Index()
         {
             var mail = (string)Session["CariMail"];
@@ -31,7 +32,7 @@ namespace MvcTicariOtomasyon.Controllers
             return View(degerler);
         }
 
-        [Authorize]
+        
         public ActionResult Siparislerim()
         {
             var mail = (string)Session["CariMail"];
@@ -40,7 +41,7 @@ namespace MvcTicariOtomasyon.Controllers
             return View(degerler);
         }
 
-        [Authorize]
+        
         public ActionResult GelenMesajlar()
         {
             var mail = (string)Session["CariMail"];
@@ -52,7 +53,7 @@ namespace MvcTicariOtomasyon.Controllers
             return View(mesajlar);
         }
 
-        [Authorize]
+        
         public ActionResult GidenMesajlar()
         {
             var mail = (string)Session["CariMail"];
@@ -76,7 +77,7 @@ namespace MvcTicariOtomasyon.Controllers
             return View(degerler);
         }
 
-        [Authorize]
+       
         [HttpGet]
         public ActionResult YeniMesaj()
         {
@@ -88,7 +89,7 @@ namespace MvcTicariOtomasyon.Controllers
             return View();
         }
 
-        [Authorize]
+       
         [HttpPost]
         public ActionResult YeniMesaj(mesajlar m)
         {
@@ -108,14 +109,14 @@ namespace MvcTicariOtomasyon.Controllers
             return View(k.ToList());
         }
 
-        [Authorize]
+       
         public ActionResult CariKargoTakip(string id)
         {
             var degerler = c.KargoTakips.Where(x => x.TakipKodu == id).ToList();
             return View(degerler);
         }
 
-        [Authorize]
+        
         public ActionResult LogOut()
         {
             FormsAuthentication.SignOut();

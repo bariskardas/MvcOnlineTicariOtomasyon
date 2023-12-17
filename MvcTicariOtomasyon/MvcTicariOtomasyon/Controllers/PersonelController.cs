@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Security;
 using MvcTicariOtomasyon.Models.Siniflar;
 namespace MvcTicariOtomasyon.Controllers
 {
@@ -84,6 +85,14 @@ namespace MvcTicariOtomasyon.Controllers
         {
             var deger = c.Personels.ToList();
             return View(deger);
+        }
+
+        [Authorize]
+        public ActionResult LogOut()
+        {
+            FormsAuthentication.SignOut();
+            Session.Abandon();
+            return RedirectToAction("Index", "Login");
         }
     }
 }
