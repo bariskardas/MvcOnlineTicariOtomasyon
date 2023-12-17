@@ -22,3 +22,14 @@
 ![24](https://github.com/bariskardas/MvcOnlineTicariOtomasyon/assets/47866774/c840038b-8cf2-4c2c-af93-57f5b6137929)
 ![25](https://github.com/bariskardas/MvcOnlineTicariOtomasyon/assets/47866774/a7c226c8-8165-4ab0-94f2-3abeee58c5ca)
 ![26](https://github.com/bariskardas/MvcOnlineTicariOtomasyon/assets/47866774/cdf5e27e-eeb4-4ea6-a219-8480bdc8a31b)
+
+# CARİ PANELİ
+
+![5](https://github.com/bariskardas/MvcOnlineTicariOtomasyon/assets/47866774/79f25634-5f75-4cc6-a702-5228bfbd31f6)
+![6](https://github.com/bariskardas/MvcOnlineTicariOtomasyon/assets/47866774/3c47d0a9-eeff-43c3-8bb3-74c497236b1d)
+![7](https://github.com/bariskardas/MvcOnlineTicariOtomasyon/assets/47866774/01b67616-0f4e-4491-9a6d-8434d6245c80)
+![8](https://github.com/bariskardas/MvcOnlineTicariOtomasyon/assets/47866774/a5a41f58-2127-4174-981d-0ad630f3a905)
+![9](https://github.com/bariskardas/MvcOnlineTicariOtomasyon/assets/47866774/00a5d1c2-3901-45d7-9ea7-6d80bae508de)
+![10](https://github.com/bariskardas/MvcOnlineTicariOtomasyon/assets/47866774/0d2616b9-a17a-4c90-9219-97a6f0c6a9ac)
+![11](https://github.com/bariskardas/MvcOnlineTicariOtomasyon/assets/47866774/72bb64f4-7084-4c38-985b-cb5792071ff0)
+![12](https://github.com/bariskardas/MvcOnlineTicariOtomasyon/assets/47866774/eb2db269-a0af-429c-ab41-72d1ebb7d8f8)
